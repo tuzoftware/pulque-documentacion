@@ -1,0 +1,24 @@
+{
+    "title"     : "Pulque",
+    "tagline"   : "Pulque MVC for Fat Free Framework",
+    "author"    : "Tuzoftare",
+    "version"   : "1.0",
+	  "float": false,
+    "color"     : "#128635",
+    "clean_urls"    : true,
+	"repo": "http://localhost:7070/pulque-documentacion/",
+    "ignore": {
+            "files": ["Work_In_Progress.md"],
+            "folders": ["99_Not_Ready"]
+    },
+    "links": {
+        "Enlace 2": "Enlace2",
+        "Enlace 3": "Enlace3"
+    },
+    "menu": {
+	    "Inicio":"Inicio",
+		"Instalación":"Instalacion",
+        "API": "API",
+        "Creditos": "Credito"
+    }
+}

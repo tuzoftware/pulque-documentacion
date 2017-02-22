@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>       <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>          <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>          <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <title>GitHub Flavored Markdown</title>
+    <meta name="description" content="Pulque MVC for Fat Free Framework" />
+    <meta name="author" content="Tuzoftare">
+    <link rel="icon" href="../img/favicon.png" type="image/x-icon">
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link href="../css/bootstrap.css"   rel='stylesheet' type='text/css'>
+    <link href="../css/base-doc.css"       rel='stylesheet' type='text/css'>
+    <link href="../css/fontello.css"    rel='stylesheet' type='text/css'>
+    <link href="../css/animation.css"   rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+        .nav>li>a:hover,.nav>li>a:focus, .navbar{ background:rgba(18,134,53,1); }
+        .btn-primary .badge, .dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus, a, #titulo h1{ color:rgba(18,134,53,1); }
+        a:hover{ color: rgba(18,134,53,0.9); } 
+        .btn-primary { background-color:rgba(18,134,53,1); }
+        .btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary, .btn-blanco:hover,.btn-blanco:focus,.btn-blanco:active,.btn-blanco.active,.open .dropdown-toggle.btn-blanco { background-color:rgba(18,134,53,0.9); }
+        .btn-primary.disabled,.btn-primary[disabled],.btn-primary.disabled:hover,.btn-primary[disabled]:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,.btn-primary.disabled:active,.btn-primary[disabled]:active,.btn-primary.disabled.active,.btn-primary[disabled].active{ background-color: rgba(18,134,53,0.6); }
+        .ingreso{ background:rgba(18,134,53,0.1); }
+        .nav .open>a,.nav .open>a:hover,.nav .open>a:focus, .nav .open2>a,.nav .open2>a:hover,.nav .open2>a:focus, .btn-blanco{ background:rgba(18,134,53,0.3); }
+        #documentation nav#docs, code { background:rgba(18,134,53,0.15); }        
+        pre { background-color: rgba(18,134,53,0.05); border: 1px solid rgba(18,134,53,0.5); }
+        .page-header { border-bottom: 1px solid rgba(18,134,53,.5); }
+        #documentation #docs-content h2 {border-top:1px solid rgba(18,134,53,0.1);}        
+    </style>
+
+</head>
+<body>
+
+        <!-- Encabezado -->
+
+        <div id="header">
+            <div class="container"><div class="row">
+                <div id="logo" class="col-sm-3 col-xs-6"><img src="http://localhost:7070/pulque-documentacion/img/pulque.png"></div>
+                <div class="col-sm-9 col-xs-6" id="titulo">
+                    <h1>
+                        <span class="hidden-xs">Pulque MVC for Fat Free Framework</span><span class="visible-xs">Pulque</span>
+                    </h1>
+                    <span id="version">Versión 1.0</span>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu -->
+
+        <nav class="navbar navbar-default col-xs-12" role="navigation">
+          <div class="container">
+
+            <div class="navbar-header">
+                
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                <span class="navbar-brand" href="/"><i class="i-doc3"></i> DOCUMENTACION</a>
+            </div>
+
+            
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav navbar-right">
+<li><a href="Inicio">Inicio</a></li>
+<li><a href="Instalacion">Instalación</a></li>
+<li><a href="API">API</a></li>
+<li><a href="Credito">Creditos</a></li></ul></div>
+          </div>
+        </nav>
+
+        <!-- Body -->
+
+        
+        <!-- Docs -->
+
+    <section id="documentation">
+        <article class="boxed">
+            <a href="#" class="btn btn-blanco docs-show hidden-print"><i class="i-docs"></i> Indice de temas</a>
+
+            <!-- menu -->
+
+            <nav id="docs" class="left-column article-tree hidden-print">
+                <div id="sub-nav-collapse" class="sub-nav-collapse">
+                    <ul class="nav nav-list primera"><li><a href="http://localhost:7070/pulque-documentacion/"><i class="i-home"></i> Inicio</a></li><li><a style="padding-left:15px" href="../Instalacion.html"><i class="i-doc3"></i> Instalacion</a></li><li class="open"><a href="../Convenciones/index.html" class="folder"><i class="i-folder"></i> Convenciones</a><ul class="nav nav-list"><li><a style="padding-left:35px" href="../Convenciones/Convenciones_de_Codigo_PHP.html"><i class="i-doc3"></i> Convenciones de Codigo PHP</a></li><li class="open2"><a style="padding-left:35px" href="../Convenciones/GitHub_Flavored_Markdown.html"><i class="i-doc3"></i> GitHub Flavored Markdown</a></li><li><a style="padding-left:35px" href="../Convenciones/Code_Highlighting.html"><i class="i-doc3"></i> Code Highlighting</a></li></ul></li><li class="sube"><a href="#" class="aj-nav folder"><i class="i-folder"></i> Arquitectura</a><ul class="nav nav-list"></ul></li><li class="sube"><a href="#" class="aj-nav folder"><i class="i-folder"></i> Componente Controlador</a><ul class="nav nav-list"><li><a style="padding-left:35px" href="../Componente_Controlador/Hello_World.html"><i class="i-doc3"></i> Hello World</a></li></ul></li><li class="sube"><a href="#" class="aj-nav folder"><i class="i-folder"></i> Componente Repositorio</a><ul class="nav nav-list"><li><a style="padding-left:35px" href="../Componente_Repositorio/Hello_World.html"><i class="i-doc3"></i> Hello World</a></li></ul></li><li class="sube"><a href="#" class="aj-nav folder"><i class="i-folder"></i> Componente Vista</a><ul class="nav nav-list"><li><a style="padding-left:35px" href="../Componente_Vista/Hello_World.html"><i class="i-doc3"></i> Hello World</a></li></ul></li><li class="sube"><a href="#" class="aj-nav folder"><i class="i-folder"></i> CORE</a><ul class="nav nav-list"><li><a style="padding-left:35px" href="../CORE/Hello_World.html"><i class="i-doc3"></i> Hello World</a></li></ul></li><li class="sube"><a href="../Seguridad/index.html" class="folder"><i class="i-folder"></i> Seguridad</a><ul class="nav nav-list"><li><a style="padding-left:35px" href="../Seguridad/Vista.html"><i class="i-doc3"></i> Vista</a></li><li><a style="padding-left:35px" href="../Seguridad/Controller.html"><i class="i-doc3"></i> Controller</a></li></ul></li></ul>                    
+                    <p>&nbsp;</p>
+                    <div class="col-xs-12">
+                            <!-- Links -->
+                            <a class="btn btn-blanco btn-block" style="margin:-5px 0" href="Enlace2" target="_blank">Enlace 2</a><br><a class="btn btn-blanco btn-block" style="margin:-5px 0" href="Enlace3" target="_blank">Enlace 3</a><br>                    </div>
+                                    </div>
+            </nav>
+
+            <!-- contenido -->
+
+            <div id="docs-content">
+                    <article>
+                                                    <div class="page-header">
+                                <h1><a href="../Convenciones">Convenciones</a><i class="i-derecha"></i><a href="../Convenciones/GitHub_Flavored_Markdown.html">GitHub Flavored Markdown</a>                                                                        </h1>
+                            </div>
+                        
+                        <p>Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:</p>
+<p>Roses are red
+Violets are blue</p>
+<p>The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:</p>
+<p>Roses are red
+Violets are blue</p>
+<p>Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.</p>
+<h2>A bit of the GitHub spice</h2>
+<p>In addition to the changes in the previous section, certain references are auto-linked:</p>
+<ul>
+<li>SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
+<li>User@SHA ref: mojombo@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
+<li>User/Project@SHA: mojombo/god@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
+<li>#Num: #1</li>
+<li>User/#Num: mojombo#1</li>
+<li>User/Project#Num: mojombo/god#1</li>
+</ul>
+<p>These are dangerous goodies though, and we need to make sure email addresses don't get mangled:</p>
+<p>My email addy is tom@github.com.</p>
+<h2>Math is hard, let's go shopping</h2>
+<p>In first grade I learned that 5 > 3 and 2 &lt; 7. Maybe some arrows. 1 -> 2 -> 3. 9 &lt;- 8 &lt;- 7.</p>
+<p>Triangles man! a^2 + b^2 = c^2</p>
+<h2>We all like making lists</h2>
+<p>The above header should be an H2 tag. Now, for a list of fruits:</p>
+<ul>
+<li>Red Apples</li>
+<li>Purple Grapes</li>
+<li>Green Kiwifruits</li>
+</ul>
+<p>Let's get crazy:</p>
+<ol>
+<li>
+<p>This is a list item with two paragraphs. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+mi posuere lectus.</p>
+<p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+sit amet velit.</p>
+</li>
+<li>Suspendisse id sem consectetuer libero luctus adipiscing.</li>
+</ol>
+<p>What about some code <strong>in</strong> a list? That's insane, right?</p>
+<ol>
+<li>
+<p>In Ruby you can map like this:</p>
+<pre><code>['a', 'b'].map { |x| x.uppercase }</code></pre>
+</li>
+<li>
+<p>In Rails, you can do a shortcut:</p>
+<pre><code>['a', 'b'].map(&amp;:uppercase)</code></pre>
+</li>
+</ol>
+<p>Some people seem to like definition lists</p>
+<h2>I am a robot</h2>
+<p>Maybe you want to print <code>robot</code> to the console 1000 times. Why not?</p>
+<pre><code>def robot_invasion
+  puts("robot " * 1000)
+end</code></pre>
+<p>You see, that was formatted as code because it's been indented by four spaces.</p>
+<p>How about we throw some angle braces and ampersands in there?</p>
+<pre><code>&lt;div class="footer"&gt;
+    &amp;copy; 2004 Foo Corporation
+&lt;/div&gt;</code></pre>
+<h2>Set in stone</h2>
+<p>Preformatted blocks are useful for ASCII art:</p>
+<pre>
+             ,-.
+    ,     ,-.   ,-.
+   / \   (   )-(   )
+   \ |  ,.>-(   )-<
+    \|,' (   )-(   )
+     Y ___`-'   `-'
+     |/__/   `-'
+     |
+     |
+     |    -hrr-
+  ___|_____________
+</pre>
+<h2>Playing the blame game</h2>
+<p>If you need to blame someone, the best way to do so is by quoting them:</p>
+<blockquote>
+<p>I, at any rate, am convinced that He does not throw dice.</p>
+</blockquote>
+<p>Or perhaps someone a little less eloquent:</p>
+<blockquote>
+<p>I wish you'd have given me this written question ahead of time so I
+could plan for it... I'm sure something will pop into my head here in
+the midst of this press conference, with all the pressure of trying to
+come up with answer, but it hadn't yet...</p>
+<p>I don't want to sound like
+I have made no mistakes. I'm confident I have. I just haven't - you
+just put me under the spot here, and maybe I'm not as quick on my feet
+as I should be in coming up with one.</p>
+</blockquote>
+<h2>Table for two</h2>
+<table>
+  <tr>
+    <th>ID</th><th>Name</th><th>Rank</th>
+  </tr>
+  <tr>
+    <td>1</td><td>Tom Preston-Werner</td><td>Awesome</td>
+  </tr>
+  <tr>
+    <td>2</td><td>Albert Einstein</td><td>Nearly as awesome</td>
+  </tr>
+</table>
+<h2>Crazy linking action</h2>
+<p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from
+<a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
+<p><em>View the <a href="http://github.github.com/github-flavored-markdown/sample_content.html">source of this content</a>.</em></p>                                            </article>
+            </div>
+
+        </article>
+    </section>
+
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+        if (typeof jQuery == 'undefined')
+            document.write(unescape("%3Cscript src='../js/jquery-1.11.0.min.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- hightlight.js -->
+    <script src="../js/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- JS -->
+    <script src="../js/base.js"></script>
+
+    <!-- Front end file editor -->
+        <script src="../js/custom.js"></script>
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</body>
+</html>
+

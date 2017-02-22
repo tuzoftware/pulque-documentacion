@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?64353858');
+  src: url('../font/fontello.eot?64353858#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?64353858') format('woff'),
+       url('../font/fontello.ttf?64353858') format('truetype'),
+       url('../font/fontello.svg?64353858#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?64353858#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="i-"]:before, [class*=" i-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.i-skype:before { content: '\e800'; } /* '' */
+.i-linkedin:before { content: '\e801'; } /* '' */
+.i-googleplus:before { content: '\e802'; } /* '' */
+.i-twitter:before { content: '\e803'; } /* '' */
+.i-arriba-circle:before { content: '\e804'; } /* '' */
+.i-facebook:before { content: '\e805'; } /* '' */
+.i-derecha-sign:before { content: '\e806'; } /* '' */
+.i-izquierda-sign:before { content: '\e807'; } /* '' */
+.i-abajo-sign:before { content: '\e808'; } /* '' */
+.i-ok:before { content: '\e809'; } /* '' */
+.i-folder:before { content: '\e80a'; } /* '' */
+.i-directorio:before { content: '\e80b'; } /* '' */
+.i-tema:before { content: '\e80c'; } /* '' */
+.i-curso:before { content: '\e80d'; } /* '' */
+.i-dependencia:before { content: '\e80e'; } /* '' */
+.i-arriba:before { content: '\e80f'; } /* '' */
+.i-derecha:before { content: '\e810'; } /* '' */
+.i-izquierda:before { content: '\e811'; } /* '' */
+.i-abajo:before { content: '\e812'; } /* '' */
+.i-config:before { content: '\e813'; } /* '' */
+.i-hoja:before { content: '\e814'; } /* '' */
+.i-plugin:before { content: '\e815'; } /* '' */
+.i-escudo:before { content: '\e816'; } /* '' */
+.i-lanzar:before { content: '\e817'; } /* '' */
+.i-doc2:before { content: '\e818'; } /* '' */
+.i-docs:before { content: '\e819'; } /* '' */
+.i-doc:before { content: '\e81a'; } /* '' */
+.i-borrar:before { content: '\e81b'; } /* '' */
+.i-warning:before { content: '\e81c'; } /* '' */
+.i-doc3:before { content: '\e81d'; } /* '' */
+.i-ok-sign:before { content: '\e81e'; } /* '' */
+.i-cancelar:before { content: '\e81f'; } /* '' */
+.i-cancelar-sign:before { content: '\e820'; } /* '' */
+.i-mas:before { content: '\e821'; } /* '' */
+.i-mas-sign:before { content: '\e822'; } /* '' */
+.i-menos:before { content: '\e823'; } /* '' */
+.i-menos-sign:before { content: '\e824'; } /* '' */
+.i-usuario:before { content: '\e825'; } /* '' */
+.i-usuarios:before { content: '\e826'; } /* '' */
+.i-hombre:before { content: '\e827'; } /* '' */
+.i-mujer:before { content: '\e828'; } /* '' */
+.i-home:before { content: '\e829'; } /* '' */
+.i-info-sign:before { content: '\e82a'; } /* '' */
+.i-ayuda-sign:before { content: '\e82b'; } /* '' */
+.i-bandera:before { content: '\e82c'; } /* '' */
+.i-download:before { content: '\e82d'; } /* '' */
+.i-upload:before { content: '\e82e'; } /* '' */
+.i-tag:before { content: '\e82f'; } /* '' */
+.i-editar:before { content: '\e830'; } /* '' */
+.i-link:before { content: '\e831'; } /* '' */

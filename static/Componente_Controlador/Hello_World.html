@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>       <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>          <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>          <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <title>Hello World</title>
+    <meta name="description" content="Pulque MVC for Fat Free Framework" />
+    <meta name="author" content="Tuzoftare">
+    <link rel="icon" href="../img/favicon.png" type="image/x-icon">
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link href="../css/bootstrap.css"   rel='stylesheet' type='text/css'>
+    <link href="../css/base-doc.css"       rel='stylesheet' type='text/css'>
+    <link href="../css/fontello.css"    rel='stylesheet' type='text/css'>
+    <link href="../css/animation.css"   rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+        .nav>li>a:hover,.nav>li>a:focus, .navbar{ background:rgba(18,134,53,1); }
+        .btn-primary .badge, .dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus, a, #titulo h1{ color:rgba(18,134,53,1); }
+        a:hover{ color: rgba(18,134,53,0.9); } 
+        .btn-primary { background-color:rgba(18,134,53,1); }
+        .btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary, .btn-blanco:hover,.btn-blanco:focus,.btn-blanco:active,.btn-blanco.active,.open .dropdown-toggle.btn-blanco { background-color:rgba(18,134,53,0.9); }
+        .btn-primary.disabled,.btn-primary[disabled],.btn-primary.disabled:hover,.btn-primary[disabled]:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,.btn-primary.disabled:active,.btn-primary[disabled]:active,.btn-primary.disabled.active,.btn-primary[disabled].active{ background-color: rgba(18,134,53,0.6); }
+        .ingreso{ background:rgba(18,134,53,0.1); }
+        .nav .open>a,.nav .open>a:hover,.nav .open>a:focus, .nav .open2>a,.nav .open2>a:hover,.nav .open2>a:focus, .btn-blanco{ background:rgba(18,134,53,0.3); }
+        #documentation nav#docs, code { background:rgba(18,134,53,0.15); }        
+        pre { background-color: rgba(18,134,53,0.05); border: 1px solid rgba(18,134,53,0.5); }
+        .page-header { border-bottom: 1px solid rgba(18,134,53,.5); }
+        #documentation #docs-content h2 {border-top:1px solid rgba(18,134,53,0.1);}        
+    </style>
+
+</head>
+<body>
+
+        <!-- Encabezado -->
+
+        <div id="header">
+            <div class="container"><div class="row">
+                <div id="logo" class="col-sm-3 col-xs-6"><img src="http://localhost:7070/pulque-documentacion/img/pulque.png"></div>
+                <div class="col-sm-9 col-xs-6" id="titulo">
+                    <h1>
+                        <span class="hidden-xs">Pulque MVC for Fat Free Framework</span><span class="visible-xs">Pulque</span>
+                    </h1>
+                    <span id="version">Versión 1.0</span>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu -->
+
+        <nav class="navbar navbar-default col-xs-12" role="navigation">
+          <div class="container">
+
+            <div class="navbar-header">
+                
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                <span class="navbar-brand" href="/"><i class="i-doc3"></i> DOCUMENTACION</a>
+            </div>
+
+            
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav navbar-right">
+<li><a href="Inicio">Inicio</a></li>
+<li><a href="Instalacion">Instalación</a></li>
+<li><a href="API">API</a></li>
+<li><a href="Credito">Creditos</a></li></ul></div>
+          </div>
+        </nav>
+
+        <!-- Body -->
+
+        
+        <!-- Docs -->
+
+    <section id="documentation">
+        <article class="boxed">
+            <a href="#" class="btn btn-blanco docs-show hidden-print"><i class="i-docs"></i> Indice de temas</a>
+
+            <!-- menu -->
+
+            <nav id="docs" class="left-column article-tree hidden-print">
+                <div id="sub-nav-collapse" class="sub-nav-collapse">
+                    <ul class="nav nav-list primera"><li><a href="http://localhost:7070/pulque-documentacion/"><i class="i-home"></i> Inicio</a></li><li><a style="padding-left:15px" href="../Instalacion.html"><i class="i-doc3"></i> Instalacion</a></li><li class="sube"><a href="../Convenciones/index.html" class="folder"><i class="i-folder"></i> Convenciones</a><ul class="nav nav-list"><li><a style="padding-left:35px" href="../Convenciones/Convenciones_de_Codigo_PHP.html"><i class="i-doc3"></i> Convenciones de Codigo PHP</a></li><li><a style="padding-left:35px" href="../Convenciones/GitHub_Flavored_Markdown.html"><i class="i-doc3"></i> GitHub Flavored Markdown</a></li><li><a style="padding-left:35px" href="../Convenciones/Code_Highlighting.html"><i class="i-doc3"></i> Code Highlighting</a></li></ul></li><li class="sube"><a href="#" class="aj-nav folder"><i class="i-folder"></i> Arquitectura</a><ul class="nav nav-list"></ul></li><li class="open"><a href="#" class="aj-nav folder"><i class="i-folder"></i> Componente Controlador</a><ul class="nav nav-list"><li class="open2"><a style="padding-left:35px" href="../Componente_Controlador/Hello_World.html"><i class="i-doc3"></i> Hello World</a></li></ul></li><li class="sube"><a href="#" class="aj-nav folder"><i class="i-folder"></i> Componente Repositorio</a><ul class="nav nav-list"><li><a style="padding-left:35px" href="../Componente_Repositorio/Hello_World.html"><i class="i-doc3"></i> Hello World</a></li></ul></li><li class="sube"><a href="#" class="aj-nav folder"><i class="i-folder"></i> Componente Vista</a><ul class="nav nav-list"><li><a style="padding-left:35px" href="../Componente_Vista/Hello_World.html"><i class="i-doc3"></i> Hello World</a></li></ul></li><li class="sube"><a href="#" class="aj-nav folder"><i class="i-folder"></i> CORE</a><ul class="nav nav-list"><li><a style="padding-left:35px" href="../CORE/Hello_World.html"><i class="i-doc3"></i> Hello World</a></li></ul></li><li class="sube"><a href="../Seguridad/index.html" class="folder"><i class="i-folder"></i> Seguridad</a><ul class="nav nav-list"><li><a style="padding-left:35px" href="../Seguridad/Vista.html"><i class="i-doc3"></i> Vista</a></li><li><a style="padding-left:35px" href="../Seguridad/Controller.html"><i class="i-doc3"></i> Controller</a></li></ul></li></ul>                    
+                    <p>&nbsp;</p>
+                    <div class="col-xs-12">
+                            <!-- Links -->
+                            <a class="btn btn-blanco btn-block" style="margin:-5px 0" href="Enlace2" target="_blank">Enlace 2</a><br><a class="btn btn-blanco btn-block" style="margin:-5px 0" href="Enlace3" target="_blank">Enlace 3</a><br>                    </div>
+                                    </div>
+            </nav>
+
+            <!-- contenido -->
+
+            <div id="docs-content">
+                    <article>
+                                                    <div class="page-header">
+                                <h1><a href="../Componente_Controlador">Componente Controlador</a><i class="i-derecha"></i><a href="../Componente_Controlador/Hello_World.html">Hello World</a>                                                                        </h1>
+                            </div>
+                        
+                        <p>This is just another sample page to get you started. What do you think ?</p>                                            </article>
+            </div>
+
+        </article>
+    </section>
+
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+        if (typeof jQuery == 'undefined')
+            document.write(unescape("%3Cscript src='../js/jquery-1.11.0.min.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- hightlight.js -->
+    <script src="../js/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- JS -->
+    <script src="../js/base.js"></script>
+
+    <!-- Front end file editor -->
+        <script src="../js/custom.js"></script>
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</body>
+</html>
+
