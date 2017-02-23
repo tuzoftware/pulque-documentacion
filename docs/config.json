@@ -11,10 +11,6 @@
             "files": ["Work_In_Progress.md"],
             "folders": ["99_Not_Ready"]
     },
-    "links": {
-        "Enlace 2": "Enlace2",
-        "Enlace 3": "Enlace3"
-    },
     "menu": {
 	    "Inicio":"Inicio",
 		"Instalación":"Instalacion",
