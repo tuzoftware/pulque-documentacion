@@ -1,24 +1,21 @@
 <p class="lead">
-	<strong>Daux.io</strong> is an documentation generator that uses a simple folder structure and Markdown files to create custom documentation on the fly. It helps you create great looking documentation in a developer friendly way.
+	<strong>Pulque</strong> es un complemeto basado en MVC, más otras
+	librerías para Fat Free Framework con la finalidad de crear proyectos
+	ágiles, seguros y con alto rendimiento.
 </p>
 
 <hr/>
-<h3>Features</h3>
+<h3>Caracter&iacute;sticas</h3>
 <hr/>
 
-<img src="img/app-thumbs.png" alt="alt text" class="img-responsive pull-right"  style="margin-bottom:20px;">
-
-* 100% Mobile Responsive
-* Supports GitHub Flavored Markdown
-* Auto created homepage/landing page
-* Auto Syntax Highlighting
-* Auto Generated Navigation
-* 4 Built-In Themes or roll your own
-* Functional, Flat Design Style
-* Shareable/Linkable SEO Friendly URLs
-* Built On Bootstrap
-* No Build Step
-* Git/SVN Friendly
-* Google Analytics
-* Optional code float layout
-
+* Construido con el super Framework Fat Free Framework
+* Módulo ACL, basado de ruteos para mayor seguridad, tambien soporta seguridad
+de lado de la vista
+* Poderoso Validador basado en VLucas/Valitron
+* Twig como motor de plantillas
+* Autoloads mágicos pero no tan mágicos
+* Trazable y altamente Mantenible
+* Modular
+* Orientado a componentes, adios a los chorizos de javascript
+* Whoops para el Manejo de Errores
+* Curva de aprendizaje es sencilla
