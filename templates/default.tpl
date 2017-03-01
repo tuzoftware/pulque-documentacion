@@ -28,7 +28,7 @@
                     if ($node->index_page) $nav .= '<a href="' . $base_page . $link . '" class="folder"><i class="i-folder"></i> ' .
                         $node->title . '</a>';
                     else $nav .= '<a href="#" class="aj-nav folder"><i class="i-folder"></i> ' . $node->title . '</a>';
-                    $nav .= '<ul class="nav nav-list">';
+                    $nav .= '<ul class="nav nav-list" style="margin-left:8px">';
                     $new_path = ($path === '') ? $url : $path . '/' . $url;
                     $nav .= $this->build_navigation($node, $new_path, $current_url, $base_page, $mode, $pad+1);
                     $nav .= '</ul></li>';

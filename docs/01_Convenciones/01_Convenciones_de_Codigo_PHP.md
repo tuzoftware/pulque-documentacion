@@ -26,9 +26,9 @@ Las constanstes deben ser nombradas con `CAMEL CASE`
         const CAPTURISTA_HIDALGO="Capturista del Estado de Hidalgo";
 Funciones
 -------------------------------
-Las funciones deben ser nombradas con `snake case`;
+Las funciones deben ser nombradas con `CAMEL CASE MINUSCULA`;
 
-        public function buscar_usuario(){
+        public function buscarUsuario(){
         //Aqui va todo el codigo
         }
 Clases, Interfaces y Enumeraciones
