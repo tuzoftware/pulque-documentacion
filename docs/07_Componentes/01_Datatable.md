@@ -1,5 +1,12 @@
+
+- [Instalaci&oacute;n](#instalacion)
+- [Api](#api)
+
+    
 A continuacion, describo los pasos para usar el datatable.
 
+<a name="instalacion"></a>
+## Instalaci&oacute;n
 Primero es necesario agregar las librerías al html
 
      <link href="[[base]]/ui/js/base/datatables-1.10.12/css/dataTables-custom.css" rel="stylesheet" type="text/css">
@@ -9,7 +16,7 @@ Primero es necesario agregar las librerías al html
         
 Segundo Paso, dentro del html es necesario definir las columnas
 
-     <table>
+     <table id="tablaContinente">
      <tr>
         <td>Id</td>
         <td>Nombre</td>
@@ -64,6 +71,13 @@ Sexto paso, en los repositorios agregar los métodos que realizan la consulta
         $this->sql= $this->sql."LIMIT :start,:length";
         return $this->resultado();
     }
+
+<a name="api"></a>
+## API
+
+Recargar el datatable
+
+    dt.recargar();
 
   
 
